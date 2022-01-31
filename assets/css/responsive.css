@@ -1,0 +1,148 @@
+		
+    /*  Mobile & Tablet */
+@media (max-width: 63.9375em) {
+
+    .header-menu {
+        display: none;
+    }
+
+    .header-top {
+        display: none;
+    }
+
+    .header-search {
+        display: none;
+    }
+
+    .header-fpt {
+        display: none;
+    }
+    
+    .header__icon--img {
+        height: 60px;
+    }
+
+    .category-item {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hot-price {
+        display: grid;
+        justify-items: center;
+    }
+
+    .hot-price>span {
+        margin-bottom: 10px;
+    }
+
+    .label-tit>span>strong {
+        margin-top: 10px;
+    }
+
+    .event-sticky {
+        display: none;
+    }
+    
+    .header__mobile--top {
+        display: block;
+    }
+}
+
+/* Tablet: min-width >= 740px and max-width < 1023px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+
+    .hot-price>span {
+        font-size: 1.5em;
+    }
+
+}
+
+/* Mobile: max-width < 739px */
+@media only screen and (max-width: 46.1875em) {
+    .fpt-bn-bottom {
+        width: 100%;
+    }
+
+    .fpt-bn-center>img {
+        width: 100%;
+    }
+
+    .fpt-sale-list {
+        display: block;
+    }
+
+    .cd-time-title {
+        font-size: 1.5rem;
+    }
+
+    .get-time>li {
+        font-size: 1.5rem;
+    }
+
+    .cd-time>a {
+        font-size: 1.5rem;
+    }
+
+    .hot-price>span {
+        font-size: 1.2rem;
+    }
+
+    .hot-price>p {
+        font-size: 1.2rem;
+    }
+
+    .slider {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .category {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    .container {
+        margin: 0 12px;
+    }
+
+    .highlights__item--price>span {
+        font-size: 1rem;
+    }
+
+    .highlights__item--price>p {
+        font-size: 0.8rem;
+    }
+
+    .footer-app {
+        text-align: center;
+        margin: 0 12px;
+    }
+
+    .highlights__item--btn {
+        width: 100%;
+        left: 0;
+        bottom: 0;
+    }
+
+    .highlights-item:hover .highlights__item--btn {
+        display: grid;
+    }
+
+    .highlights__item--btn>a:nth-child(1) {
+        margin-right: 0;
+    }
+
+    .fpt-bn-center {
+        padding: 0 6px;
+    }
+
+    .product-title {
+        font-size: 2rem;
+    }
+
+    .fpt-sale-list>li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
